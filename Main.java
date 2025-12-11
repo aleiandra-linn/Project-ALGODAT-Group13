@@ -466,9 +466,18 @@ public class Main {
     }
 
     static void showMenu() {
-        System.out.println("──────────────────────────────────────────────");
-        System.out.println("                 RhythmFLOW                   ");
-        System.out.println("──────────────────────────────────────────────");
+        System.out.println("\n");
+    System.out.println("────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────");
+    System.out.println("            ██████╗ ██╗  ██║ ██╗   ██╗ ████████╗██╗  ██╗███╗   ███╗      ███████╗██╗      ██████╗ ██╗    ██╗ ");
+    System.out.println("            ██╔══██ ██║  ██║ ╚██╗ ██╔╝ ╚══██╔══╝██║  ██║████╗ ████║      ██╔════╝██║     ██╔═══██╗██║    ██║ ");
+    System.out.println("            ██████╔╝███████║  ╚████╔╝     ██║   ███████║██╔████╔██║      ███████╗██║     ██║   ██║██║ █╗ ██║ ");
+    System.out.println("            ██╔══██╗██╔══██║   ╚██╔╝      ██║   ██╔══██║██║╚██╔╝██║      ██╔════╝██║     ██║   ██║██║███╗██║ ");
+    System.out.println("            ██║  ██║██║  ██║    ██║       ██║   ██║  ██║██║ ╚═╝ ██║      ██║     ███████╗╚██████╔╝╚███╔███╔╝ ");
+    System.out.println("            ╚═╝  ╚═ ╚═╝  ╚═╝    ╚═╝       ╚═╝   ╚═╝  ╚═╝╚═╝     ╚═╝      ╚═╝     ╚══════╝ ╚═════╝  ╚══╝╚══╝  ");
+    System.out.println("                               ALIN     ARKAN     FATHAN     MAIL     WARITSA     KAMRUN     YUNDA");
+    System.out.println("──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────");
+    System.out.println("                                                 RHYTHM FLOW  MUSIC PLAYER SYSTEM");
+    System.out.println("──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\n");
         System.out.println("1. Semua lagu");
         System.out.println("2. Lihat lagu yang sedang diputar");
         System.out.println("3. Putar lagu baru");
@@ -538,3 +547,4 @@ public class Main {
         library.add(new Song("Boredom", "Tyler, The Creator", "Flower Boy", 217));
     }
 }
+
